@@ -1,5 +1,6 @@
 .detail {
   flex: 1;
+  overflow-y: scroll;
 
   .user {
     padding: 30px 20px;
@@ -12,8 +13,8 @@
     img {
       width: 100px;
       height: 100px;
-      object-fit: cover;
       border-radius: 50%;
+      object-fit: cover;
     }
   }
 
@@ -64,7 +65,7 @@
 
             span {
               font-size: 14px;
-              color: lightgrey;
+              color: lightgray;
               font-weight: 300;
             }
           }
@@ -89,7 +90,7 @@
       cursor: pointer;
 
       &:hover {
-        background-color: rgba(221, 24, 63, 0.945);
+        background-color: rgba(220, 20, 60, 0.796);
       }
 
       &.logout {
